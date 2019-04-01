@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">food Truck_Fanny</string>
+    <string name="str_send">ENVIAR</string>
+    <string name="str_titulo">Menu del Dia</string>
+    <string name="opcion1">Pollo a la Braza</string>
+    <string name="opcion2">Ceviche</string>
+    <string name="opcion3">Olluquito de Charqui</string>
+    <string name="opcion4">Picante de cuy</string>
+    <string name="opcion5">Causa rellena de pollo o atun</string>
+    <string name="opcion6">Lomo saltado</string>
+    <string name="opcion7">Aji de Gallina</string>
+    <string name="opcion8">Rocoto Relleno</string>
+    <string name="send_to">Enviar por</string>
+    <string name="send_to1">Enviar por</string>
+
+</resources>

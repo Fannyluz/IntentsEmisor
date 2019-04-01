@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/img1"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/str_titulo"
+        android:textAlignment="center"
+        android:textColor="#F90505"
+        android:textColorLink="@color/colorPrimary"
+        android:textSize="16dp"
+        android:textStyle="normal|bold" />
+
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RadioButton
+        android:id="@+id/rdo01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/opcion1" />
+
+    <RadioButton
+        android:id="@+id/rdo02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/opcion2"/>
+
+    <RadioButton
+        android:id="@+id/rdo03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/opcion3"/>
+
+    <RadioButton
+        android:id="@+id/rdo04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/opcion4" />
+
+    <RadioButton
+        android:id="@+id/rdo05"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/opcion5" />
+
+    <RadioButton
+        android:id="@+id/rdo06"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/opcion6" />
+
+    <RadioButton
+        android:id="@+id/rdo07"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/opcion7" />
+
+    <RadioButton
+        android:id="@+id/rdo08"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/opcion8" />
+
+</RadioGroup>
+
+    <Button
+        android:id="@+id/btn_enviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@android:drawable/ic_menu_send"
+        android:text="@string/str_send"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#F90505"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+</LinearLayout>
